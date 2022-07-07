@@ -5,9 +5,9 @@
 	}
 	50%{
 		/* box-shadow:0 250px 15px 0 rgba(0,0,0,.2); */
-		transform:translatey(-40px)
+		transform:translatey(-5px)
 	}
 }
-.efeito-flutuante, .efeito-flutuante .elementor-image img {
-     animation: float 6s ease-in-out infinite;
+.efeito-flutuante, .elementor-image img {
+     animation: float 4s ease-in-out infinite;
 }

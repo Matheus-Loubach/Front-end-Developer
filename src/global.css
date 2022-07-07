@@ -65,8 +65,6 @@ header p{
   color: white;
 }
 
-
-
 /*cor de fundo titulo prin*/
 .cor-F{
   
@@ -102,11 +100,9 @@ header p{
 
 
 
-.lingu{
-  margin-top: 50px;
- display: flex;
- justify-content: center;
- 
+.lingu p:hover{
+  color: rgb(0, 243, 32);  
+  cursor: pointer;
 }
 
 .lingu img{
@@ -122,8 +118,11 @@ header p{
 
   }
 
-
-
+/*icone tec*/
+.efeitoFundoIcon img{
+  background-color: white;
+  border-radius: 10px;
+}
 
 .projetos_sty img:hover{
 
@@ -180,5 +179,4 @@ header p{
 ::-webkit-scrollbar-thumb:horizontal:hover {
   background-color: rgb(0, 243, 32);
 }
-
 
