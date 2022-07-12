@@ -8,6 +8,7 @@
 
 
 .geeks::after {
+  margin: 2px;
   content: "";
   position: absolute;
   top: -2px;

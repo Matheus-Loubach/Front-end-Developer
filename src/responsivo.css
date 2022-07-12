@@ -18,7 +18,7 @@
     margin-top: 40vh;
   }
   
-  .paragrago_sobre
+  .paragrafo_sobre
   {
     background-color: rgb(37, 37, 37);
     border-radius: 10px;
@@ -57,10 +57,11 @@
   padding: 2px;
   border-right: 1px solid rgb(0, 243, 32);  
 }
-.paragrago_projeto{
+.paragrafo_projeto{
 
   text-align: center;
   color: white;
+
 }
 
 .projetos_sty img{
@@ -96,7 +97,7 @@
   {
       list-style: none;/*tirar os pontos*/
       display: inline-block;
-      margin-right: 15px;
+      margin-right: 10px;
   }
   
   .header_nav a
@@ -115,7 +116,7 @@
    transition: ease-out 0.3s;
   }
 
-  .paragrago_sobre
+  .paragrafo_sobre
   {
     background-color: rgb(37, 37, 37);
     border-radius: 10px;
@@ -144,11 +145,12 @@
   padding: 2px;
   border-right: 1px solid rgb(0, 243, 32);  
 }
-.paragrago_projeto{
+.paragrafo_projeto{
   width: 50vw;
   text-align: center;
   margin-top: 100px;
   color: white;
+  
 }
 
 .projetos_sty img{
