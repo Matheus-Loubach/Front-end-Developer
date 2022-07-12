@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/*  */
-/* #teste{
-  background: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0), rgb(0, 0, 0));
-} */
+
+body{
+  background-color: rgb(29, 29, 29);
+  margin: 0;
+  padding:0;
+}
 
 
 html {
@@ -19,13 +21,6 @@ html {
 
 #apre{
   margin-bottom: 10px;
-}
-
-body{
-  background-color: rgb(29, 29, 29);
-  margin: 0;
-  padding:0;
- 
 }
 
 #desig{
@@ -84,21 +79,6 @@ header p{
   justify-content: center;
 }
 
-#titulos_sP{
-  margin-top: 5%;
-  color: rgb(0, 243, 32);
-  border-bottom: 3px solid rgb(255, 255, 255);
-  display: inline-block;
-  width: 250px;
-
-}
-
-#fundo_sobre{
-  background-color: black;
-  
-}
-
-
 
 .lingu p:hover{
   color: rgb(0, 243, 32);  
@@ -118,6 +98,61 @@ header p{
 
   }
 
+/*-------------------Sobre-----------------------*/
+
+#fundo_sobre{
+  background-color: black;   
+}
+
+.container_sobre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.paragrafo_sobre
+{
+  background-color: rgb(37, 37, 37);
+  margin: 10px 10px 10px 10px;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.paragrafo_sobre p{
+ max-width: 500px;
+}
+
+#titulos_sP{
+  color: rgb(0, 243, 32);
+  text-align: center;
+}
+/*-------------------Projetos---------------------------*/
+
+  /*projetos*/
+  .container_projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container_projetos h3{
+    color: rgb(0, 243, 32);
+    margin: 30px;
+  }
+
+  .fundo_relogio{
+    display: flex;
+    max-width: 1000px;
+    margin-bottom: 20px;
+    margin: 10px;
+  }
+
+
+
+/*-------------------Acima Projetos---------------------------*/
 /*icone tec*/
 .efeitoFundoIcon img{
   background-color: white;
@@ -126,10 +161,10 @@ header p{
 
 .projetos_sty img:hover{
 
-  filter: contrast(120%);
-  }
+filter: contrast(120%);
+}
 
-  #ver{
+#ver{
     margin-bottom: 2%;
     color:rgb(0, 243, 32);
   }
@@ -138,15 +173,14 @@ header p{
 
   #rodape{
     background-color: rgb(20, 20, 20);
+    justify-content: center;
   }
 
-.icon_cont img{
- width: 80px;
- margin-top: 50px;
- margin-right: 20px;
- padding: 10px;
-
-  }
+  .icon_cont img{
+    width: 80px;
+    margin-top: 50px;
+    padding: 10px;
+}
 
   .icon_cont img:hover{
     filter: drop-shadow(10px 1px 2px);
@@ -155,8 +189,6 @@ header p{
 
 
   /*barra*/
-
-  
 /* Largura da barra de rolagem */
 ::-webkit-scrollbar {
   width: 10px;
@@ -181,7 +213,7 @@ header p{
 }
 
 
-
+/*efeito ScrollReveal*/
 .paragrago_sobre, .fundo_relogio, .par-1{
   visibility: hidden;
 }
